@@ -7,4 +7,4 @@ Jupyter notebooks running on AWS EC2 Amazon Linux 2 with s3 storage.
 - Build Random Forest model to predict winner and looser of future games given pre-game matchup stats. Use potential payouts/losses as weights in model training.
 
 ### Outcome
-- Was never able to outperform the average moneyline prediction but near ROC AUC points of moneyline prediction probability
+- Was never able to outperform the official betting odds prediction but came near ROC AUC of official odds. This is equivalent to almost breaking even if betting in real life (assuming $1 bet per match).
